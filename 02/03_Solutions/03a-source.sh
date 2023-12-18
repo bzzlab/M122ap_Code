@@ -5,9 +5,9 @@
 # It has a synonym in . (period).
 
 # falsch:
-# ./06b-variables.sh
+# ./03b-variables.sh
 # korrekt:
-#source ./06b-variables.sh
+source ./03b-variables.sh
 echo "COURSE: $COURSE"
 echo "SITE: $SITE"
 

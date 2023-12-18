@@ -9,9 +9,11 @@ then
   exit
 fi
 
-while read animal; do
+for animal in $(cat $file)
+do
   if [[ $animal = *"tiger"* ]]; then
       printf "%s" "found " ${animal}
       break;
   fi
-done < $file
+done
+
