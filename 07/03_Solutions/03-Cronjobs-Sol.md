@@ -10,7 +10,8 @@ nachinstallieren.
    Dateien darin. 
 3. Erstellen Sie ein Skript, welches alle 5 Minuten
    die Dateien innerhalb von diesem Ordner löscht. 
-4. Überprüfen Sie mit dem Kommando `watch`, ob ihr Skript die Files nach 5 Minuten
+4. Cronjob starten (pendant dazu ist stop oder restart)
+5. Überprüfen Sie mit dem Kommando `watch`, ob ihr Skript die Files nach 5 Minuten
    gelöscht hat.
 
 #### Lösungen
@@ -31,5 +32,7 @@ chmod +x trash.sh
 crontab -e
 */5 * * * * /root/trash.sh
 #4
+/etc/init.d/cron start
+#5
 watch ls /root/trash  
 ```
