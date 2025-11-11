@@ -8,14 +8,14 @@
 2. Anschliessend in der Statusleiste, das Dropdown (sehr kleines Dreieck-Symbol) neben der Zahl anwählen und die Shell <code>bash</code> (und nicht <code>cmd</code>) wählen. Damit können Sie genau gleichen Unix-Shell-Kommandos verwenden.
 
 
-### Aufgabe 1: Webseite für Kleintierpraxis in Betrieb nehmen 
+### Aufgabe 1: Webseite für Highheels in Betrieb nehmen 
 
 #### Ausgangslage
 Sie möchten eine Webseite für eine Kleintierpraxis auf einem Webserver (Betriebssystem Linux) in Betrieb nehmen. Von der Partnerfirma erhalten Sie sämtliche Ressourcen der Webseite. Die Verzeichnisstruktur ist vorgegeben und sieht wie folgt aus:
 
 <figure>
 <figcaption>Abb-01: Verzeichnisstruktur des Webprojekts</figcaption>
-<img class="large" src="./img/ue_tierpraxis_01.png"/>
+<img class="large" src="./img/ue_high_heels.png"/>
 </figure>
 
 #### Aufgabenstellung
