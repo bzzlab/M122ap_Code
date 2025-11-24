@@ -1,6 +1,6 @@
 #!/bin/bash
 # Topic: Function Basics
-today=`date  --iso-8601`
+today=`date --iso-8601`
 
 # Funktionen deklarieren
 function f1 { #??
