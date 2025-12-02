@@ -4,18 +4,20 @@ Aufgabe: Dateien AWS EC2 Instanz überprüfen
 Ausgangslage
 Mit den entsprechenden Operatoren können über die Bash-Shell Dateien und Verzeichnisse
 überprüft werden. Lesen Sie zu diesem Zweck die wichtigsten
-```File test``` Operatoren im Artikel https://tldp.org/LDP/abs/html/fto.html nach.
+File-Test-Operatoren im beigelegten PDF-Artikel (Quelle: https://tldp.org/LDP/abs/html/fto.html)
+nach.
 
 Aufgabestellung
-1. Erstellen Sie ein Shellscript, welche geeignete ```File test``` Operatoren verwendet und folgende Bedingungen überprüft: Prüfen Sie, ...
-   1. ob die reguläre Datei ```/etc/passwd``` existiert.
-   2. ob die Datei ```03_myfile.txt``` leer ist.
-   3. ob ```/etc/``` ein Verzeichnis ist.
-   4. ob Sie Schreibrechte auf die Datei ```03_passwd.txt"``` haben.
-   5. ob Sie Besitzer von ```/etc/passwd``` sind.
-   6. ob Sie in der Gruppe von ```/etc/passwd``` sind.
-   7. ob ```/etc/passwd``` neuer (Datum) als ```03_passwd.txt"``` ist.
-   8. ob ```/etc/passwd``` älter (Datum) als ```03_passwd.txt"``` ist.
+1. Erstellen Sie ein Shellscript, welche geeignete Datei-Operatoren verwendet
+und folgende Bedingungen überprüft ...
+   1. ob die reguläre Datei '/etc/passwd' existiert.
+   2. ob die Datei '03_myfile.txt' leer ist.
+   3. ob '/etc/' ein Verzeichnis ist.
+   4. ob Sie Schreibrechte auf die Datei '03_passwd.txt' haben.
+   5. ob Sie Besitzer von '/etc/passwd' sind.
+   6. ob Sie in der Gruppe von '/etc/passwd' sind.
+   7. ob '/etc/passwd' neuer (Datum) als '03_passwd.txt' ist.
+   8. ob '/etc/passwd' älter (Datum) als '03_passwd.txt' ist.
 
 2. Kopieren Sie sämtliche 03_*-Dateien in Ihre AWS EC2 Instanz (Heim-Verzeichnis)
 und testen Sie das Shellscript.
