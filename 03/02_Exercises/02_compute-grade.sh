@@ -16,7 +16,7 @@ welcher die Note (Grade) auf Basis der Punktzahl ermittelt.
                                            │
                                            ▼
                      ┌──────────────────────────────────────────────┐
-                     │ when score <= 60 and score <= 100            │
+                     │ when score >= 60 and score <= 100            │
                      └──────────┬────────────────────────┬──────────┘
                                 │True                    │False
                                 ▼                        ▼
