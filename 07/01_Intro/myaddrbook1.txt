@@ -1,0 +1,6 @@
+Hans|Muster|079-123-45-67|Neuer Kunde
+Hans|Muster|079-123-45-67|Neuer Kunde
+Hans|Muster|079-123-45-67|Kunde XY hat nach ...
+Hans|Muster|079-123-45-67|Hat unterlagen erhalten
+Hans|Muster|079-123-45-67|Customer has left a message
+Hans|Muster|079-123-45-67|Customer phoned again
