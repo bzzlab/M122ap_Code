@@ -1,0 +1,4 @@
+Hans|Muster|122|lb01|5.0
+Fritz|Muster|254|lb02|4.5
+Anna|Muster|254|lb02|5.5
+Anna|Muster|254|lb02|5.5
